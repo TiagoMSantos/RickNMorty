@@ -10,7 +10,9 @@ val Purple40 = Color(0xFF6650a4)
 val PurpleGrey40 = Color(0xFF625b71)
 val Pink40 = Color(0xFF7D5260)
 
-
+val darkColor = Color(0xFF272727)
+val darkerColor = Color(0xFF1B1B1B)
+val darkestColor = Color(0xFF0A0A0A)
 
 val successBackground = Color(red = 233, green = 245, blue = 206)
 val successOutline = Color(red = 155, green = 196, blue = 56)

@@ -1,4 +1,4 @@
-package com.tiagomdosantos.rickyandmorty.domain.repositories
+package com.tiagomdosantos.rickyandmorty.domain.repositories.characters
 
 import com.tiagomdosantos.rickyandmorty.data.ApiService
 import com.tiagomdosantos.rickyandmorty.data.entities.CharacterDto

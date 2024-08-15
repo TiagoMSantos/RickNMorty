@@ -1,9 +1,8 @@
-package com.tiagomdosantos.rickyandmorty.ui.character
+package com.tiagomdosantos.rickyandmorty.domain.repositories.characters
 
 import androidx.paging.PagingSource
 import androidx.paging.PagingState
 import com.tiagomdosantos.rickyandmorty.data.entities.CharacterDto
-import com.tiagomdosantos.rickyandmorty.domain.repositories.CharactersRepository
 
 class CharactersPagingSource(
     private val repository: CharactersRepository,

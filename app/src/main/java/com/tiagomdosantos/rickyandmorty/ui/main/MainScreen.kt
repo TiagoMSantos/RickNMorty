@@ -1,4 +1,4 @@
-package com.tiagomdosantos.rickyandmorty.ui
+package com.tiagomdosantos.rickyandmorty.ui.main
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.material3.Icon
@@ -9,9 +9,9 @@ import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
-import com.tiagomdosantos.rickyandmorty.Screen
+import com.tiagomdosantos.rickyandmorty.ui.router.Screen
 import com.tiagomdosantos.rickyandmorty.extensions.getCustomNavSuiteType
-import com.tiagomdosantos.rickyandmorty.ui.character.CharactersScreen
+import com.tiagomdosantos.rickyandmorty.ui.characters.list.CharactersScreen
 
 @Composable
 fun MainScreen() {

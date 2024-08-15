@@ -5,7 +5,8 @@ import com.squareup.moshi.Moshi
 import com.squareup.moshi.kotlin.reflect.KotlinJsonAdapterFactory
 import com.tiagomdosantos.rickyandmorty.data.ApiService
 import com.tiagomdosantos.rickyandmorty.data.utils.BASE_URL
-import com.tiagomdosantos.rickyandmorty.domain.repositories.CharactersRepository
+import com.tiagomdosantos.rickyandmorty.domain.repositories.characters.CharactersRepository
+import com.tiagomdosantos.rickyandmorty.domain.repositories.episodes.EpisodesRepository
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -66,5 +67,13 @@ object NetworkModule {
         apiService: ApiService
     ): CharactersRepository {
         return CharactersRepository(apiService)
+    }
+
+    @Provides
+    @Singleton
+    fun provideEpisodesRepository(
+        apiService: ApiService
+    ): EpisodesRepository {
+        return EpisodesRepository(apiService)
     }
 }

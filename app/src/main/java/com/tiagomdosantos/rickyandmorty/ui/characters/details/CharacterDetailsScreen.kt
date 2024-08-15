@@ -1,4 +1,4 @@
-package com.tiagomdosantos.rickyandmorty.ui.character.details
+package com.tiagomdosantos.rickyandmorty.ui.characters.details
 
 import android.util.Log
 import androidx.compose.foundation.background

@@ -1,4 +1,4 @@
-package com.tiagomdosantos.rickyandmorty.ui.character
+package com.tiagomdosantos.rickyandmorty.ui.characters
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
@@ -7,9 +7,10 @@ import androidx.paging.PagingConfig
 import androidx.paging.PagingData
 import androidx.paging.cachedIn
 import com.tiagomdosantos.rickyandmorty.data.entities.CharacterDto
+import com.tiagomdosantos.rickyandmorty.domain.repositories.characters.CharactersPagingSource
 import dagger.hilt.android.lifecycle.HiltViewModel
 import javax.inject.Inject
-import com.tiagomdosantos.rickyandmorty.domain.repositories.CharactersRepository
+import com.tiagomdosantos.rickyandmorty.domain.repositories.characters.CharactersRepository
 import kotlinx.coroutines.flow.Flow
 
 @HiltViewModel

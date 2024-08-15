@@ -1,4 +1,4 @@
-package com.tiagomdosantos.rickyandmorty.ui.character
+package com.tiagomdosantos.rickyandmorty.ui.characters.list
 
 import androidx.paging.PagingData
 import com.tiagomdosantos.rickyandmorty.domain.models.Character

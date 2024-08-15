@@ -1,10 +1,9 @@
-package com.tiagomdosantos.rickyandmorty
+package com.tiagomdosantos.rickyandmorty.ui.router
 
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Face
 import androidx.compose.material.icons.filled.Place
 import androidx.compose.material.icons.filled.PlayArrow
-import androidx.compose.material.icons.filled.Settings
 import androidx.compose.ui.graphics.vector.ImageVector
 
 enum class Screen(val title: String, val icon: ImageVector) {

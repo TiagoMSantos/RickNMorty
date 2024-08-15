@@ -1,4 +1,4 @@
-package com.tiagomdosantos.rickyandmorty.ui.character
+package com.tiagomdosantos.rickyandmorty.ui.characters.list
 
 import androidx.activity.compose.BackHandler
 import androidx.compose.foundation.clickable
@@ -49,7 +49,8 @@ import com.tiagomdosantos.rickyandmorty.designsystem.components.badge.DSBadgeTyp
 import com.tiagomdosantos.rickyandmorty.data.entities.CharacterDto
 import com.tiagomdosantos.rickyandmorty.data.entities.Status
 import com.tiagomdosantos.rickyandmorty.extensions.isListPaneVisible
-import com.tiagomdosantos.rickyandmorty.ui.character.details.CharacterDetailScreen
+import com.tiagomdosantos.rickyandmorty.ui.characters.CharactersListViewModel
+import com.tiagomdosantos.rickyandmorty.ui.characters.details.CharacterDetailScreen
 
 @OptIn(ExperimentalMaterial3AdaptiveApi::class, ExperimentalMaterial3Api::class)
 @Composable
@@ -78,7 +79,8 @@ fun CharactersScreen() {
                                     text = "Characters",
                                     fontSize = 32.sp,
                                     maxLines = 1,
-                                    overflow = TextOverflow.Ellipsis
+                                    overflow = TextOverflow.Ellipsis,
+                                    color = MaterialTheme.colorScheme.onSurface
                                 )
                             },
                             scrollBehavior = scrollBehavior
@@ -165,7 +167,7 @@ fun CharacterItem(
             .height(128.dp)
             .clickable { onItemClick(character) },
         shape = RoundedCornerShape(16.dp),
-        elevation = CardDefaults.cardElevation(defaultElevation = 4.dp)
+        elevation = CardDefaults.cardElevation(defaultElevation = 4.dp),
     ) {
         Row {
             AsyncImage(
@@ -183,7 +185,7 @@ fun CharacterItem(
             ) {
                 Text(
                     text = character.name,
-                    color = Color.Black,
+                    color = Color.White,
                     modifier = Modifier
                         .fillMaxWidth()
                         .align(Alignment.Start),
