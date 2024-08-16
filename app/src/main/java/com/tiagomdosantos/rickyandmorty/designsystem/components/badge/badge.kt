@@ -13,18 +13,18 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.TextUnit
 import androidx.compose.ui.unit.dp
-import com.tiagomdosantos.rickyandmorty.ui.theme.alertBackground
-import com.tiagomdosantos.rickyandmorty.ui.theme.alertOutline
-import com.tiagomdosantos.rickyandmorty.ui.theme.alertText
-import com.tiagomdosantos.rickyandmorty.ui.theme.errorBackground
-import com.tiagomdosantos.rickyandmorty.ui.theme.errorOutline
-import com.tiagomdosantos.rickyandmorty.ui.theme.errorText
-import com.tiagomdosantos.rickyandmorty.ui.theme.successBackground
-import com.tiagomdosantos.rickyandmorty.ui.theme.successOutline
-import com.tiagomdosantos.rickyandmorty.ui.theme.successText
-import com.tiagomdosantos.rickyandmorty.ui.theme.unknownBackground
-import com.tiagomdosantos.rickyandmorty.ui.theme.unknownOutline
-import com.tiagomdosantos.rickyandmorty.ui.theme.unknownText
+import com.tiagomdosantos.rickyandmorty.designsystem.tokens.alertBackground
+import com.tiagomdosantos.rickyandmorty.designsystem.tokens.alertOutline
+import com.tiagomdosantos.rickyandmorty.designsystem.tokens.alertText
+import com.tiagomdosantos.rickyandmorty.designsystem.tokens.errorBackground
+import com.tiagomdosantos.rickyandmorty.designsystem.tokens.errorOutline
+import com.tiagomdosantos.rickyandmorty.designsystem.tokens.errorText
+import com.tiagomdosantos.rickyandmorty.designsystem.tokens.successBackground
+import com.tiagomdosantos.rickyandmorty.designsystem.tokens.successOutline
+import com.tiagomdosantos.rickyandmorty.designsystem.tokens.successText
+import com.tiagomdosantos.rickyandmorty.designsystem.tokens.unknownBackground
+import com.tiagomdosantos.rickyandmorty.designsystem.tokens.unknownOutline
+import com.tiagomdosantos.rickyandmorty.designsystem.tokens.unknownText
 
 /**
  * Enum class representing different types of badges.
